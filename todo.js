@@ -38,4 +38,5 @@ function addItem() {
   list.appendChild(maindiv);
 
   input.value = "";
+  localStorage.setItem("maindiv");
 }
